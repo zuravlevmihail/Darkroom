@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Introduction()
+    {
+        Console.WriteLine("Добро пожаловать в текстовую игру!");
+        Console.WriteLine("Вы просыпаетесь в темной комнате. Перед вами две двери.");
+    }
+
+    static int MakeChoice()
+    {
+        Console.WriteLine("Выберите действие:");
+        Console.WriteLine("1. Войти в левую дверь.");
+        Console.WriteLine("2. Войти в правую дверь.");
+        return int.Parse(Console.ReadLine());
+    }
